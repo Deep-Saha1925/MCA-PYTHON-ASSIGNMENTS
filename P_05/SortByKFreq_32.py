@@ -1,9 +1,12 @@
 lst = ["apple", "banana", "grape", "kiwi"]
 k = int(input("Enter K: "))
 
-for i in range(len(lst)):
-    for j in range(i+1, len(lst)):
-        if lst[i].count(lst[i][k]) > lst[j].count(lst[j][k]):
-            lst[i], lst[j] = lst[j], lst[i]
+def freq(word):
+    if k < len(word):
+        ch = word[k]
+        return word.count(ch)
+    return 0
+
+lst.sort(key=freq)
 
 print(lst)

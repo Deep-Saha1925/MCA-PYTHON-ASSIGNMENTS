@@ -1,14 +1,14 @@
-s1 = input("Enter string: ").lower()
-s2 = input("Enter string: ").lower()
-l=[]
+a = input("Enter string a: ")
+b = input("Enter string b: ")
 
-for ch in s1:
-    if ch not in s2:
-        l.append(ch)
-        
-if len(l) == 0:
-    print("True")
+missing = []
+
+for ch in a:
+    if ch not in b:
+        missing.append(ch)
+
+if len(missing) == 0:
+    print(True)
 else:
-    print("False.\nCharacters missing: ")
-    for e in l:
-        print(e)
+    print(False)
+    print("Missing characters:", missing)

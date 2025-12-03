@@ -16,7 +16,7 @@ for i in range(l):
     
 if findLength(s1) > findLength(s2):
     newstr += s1[findLength(s2):]
-else:
+elif findLength(s2) > findLength(s1):
     newstr += s2[findLength(s2)-findLength(s1)-1::-1]
     
 print(newstr)

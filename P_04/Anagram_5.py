@@ -1,18 +1,14 @@
-l = input("Enter string: ").split()
-test = ''
-sorted_list = []
-ans = []
+words = input("Enter words separated by space: ").split()
 
-for wrd in l:
-    sorted_list.append(sorted(wrd))
-    
-for i in range(len(sorted_list)):
-    x = []
-    if sorted_list[i] in sorted_list:
-        x.append(l[i])
-        
-    ans.append(x)
-    
-print(l)
-print(sorted_list)
-print(ans)
+groups = {}
+
+for w in words:
+    key = ''.join(sorted(w))
+    if key in groups:
+        groups[key].append(w)
+    else:
+        groups[key] = [w]
+
+result = list(groups.values())
+
+print(result)

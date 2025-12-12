@@ -1,5 +1,5 @@
-# l = [10, 45, 34, 43, 56, 57, 35]
-l = [1, 2, 3, 4, 5]
+l = [10, 45, 34, 43, 56, 57, 35]
+# l = [1, 2, 3, 4, 5]
 k = 3
 
 def avg(l):
@@ -15,7 +15,7 @@ def varience(l):
     for i in l:
         s += (i-x)**2
         
-    return s
+    return s/len(l)
 
 ans = []
 for i in range(len(l)-k+1):

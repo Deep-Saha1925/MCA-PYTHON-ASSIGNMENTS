@@ -5,17 +5,15 @@ class AuthError(Exception):
 
 demo_pass = "test"
 
-c = 0
 for i in range(3):
     user_inp = input("Enter password: ")
     try:
         if demo_pass == user_inp:
             print("Login successful")
-        elif c == 2:
-            raise AuthError
-        else:
+        elif i != 2:
             print(f"Wrong password! {3-i-1} attempts left")
-            c += 1
+        else:
+            raise AuthError
             
     except AuthError:
         print("No more attempts left.")

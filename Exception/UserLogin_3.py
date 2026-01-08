@@ -10,6 +10,7 @@ for i in range(3):
     try:
         if demo_pass == user_inp:
             print("Login successful")
+            break
         elif i != 2:
             print(f"Wrong password! {3-i-1} attempts left")
         else:

@@ -5,7 +5,7 @@ class NotEligible(Exception):
 ug_marks = int(input("Enter percentage marks in UG: "))
 jeca_rank = int(input("Enter jeca rank(if not give -1): "))
 maths = input("Enter (Y) for maths in HS or UG else (N): ")
-reserved = input("Reserved? (Y/N)")
+reserved = input("Reserved? (Y/N): ")
 
 try:
     if maths == "Y":

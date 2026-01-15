@@ -84,11 +84,20 @@ Values received:
 ```
 ---
 
+## 7️⃣ Use of Double Asterisk (**) in Function
+📄 **File:** `DoubleAsteriskFunction_7.py`  
+🧠 **Description:**  
+Demonstrates the use of double asterisk (**) in function parameters to accept variable number of keyword arguments.
 
+💻 **Example Run:**
+```
+Details received:
+name : Deep
+age : 22
 
-
-
-
-
-
-
+Details received:
+course : MCA
+university : MAKAUT
+year : 2025
+```
+---

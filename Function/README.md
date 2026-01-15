@@ -64,6 +64,28 @@ Outside function, Global x: 15
 ```
 ----
 
+## 6️⃣ Use of Asterisk (*) in Function
+📄 **File:** `AsteriskFunction_6.py`  
+🧠 **Description:**  
+Demonstrates the use of asterisk (*) in function parameters to accept a variable number of arguments.
+
+💻 **Example Run:**
+```
+Values received:
+10
+20
+
+Values received:
+1
+2
+3
+4
+5
+```
+---
+
+
+
 
 
 

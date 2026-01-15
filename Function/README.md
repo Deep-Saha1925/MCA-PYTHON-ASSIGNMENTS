@@ -101,3 +101,16 @@ university : MAKAUT
 year : 2025
 ```
 ---
+
+## 8️⃣ LCM of Two Numbers Using Function
+📄 **File:** `LCM_8.py`  
+🧠 **Description:**  
+Creates a function that calculates and returns the Least Common Multiple (LCM) of two numbers.
+
+💻 **Example Run:**
+```
+Enter first number: 12
+Enter second number: 18
+LCM = 36
+```
+---

@@ -143,3 +143,15 @@ Enter third number: 32
 Maximum = 45
 ```
 ---
+
+## 1️⃣1️⃣ Sum All Numbers in a List
+📄 **File:** `SumAllNumbers_11.py`
+
+🧠 **Description:** 
+Creates a function that takes a list of numbers and returns the sum of all elements.
+
+💻 **Example Run:**
+```
+Sum of list elements: 35
+```
+---

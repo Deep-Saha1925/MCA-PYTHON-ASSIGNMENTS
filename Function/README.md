@@ -114,3 +114,32 @@ Enter second number: 18
 LCM = 36
 ```
 ---
+
+## 9️⃣ HCF of Two Numbers Using Function
+📄 **File:** `HCF_9.py`  
+🧠 **Description:**  
+Defines a function that calculates and returns the Highest Common Factor (HCF) of two numbers.
+
+💻 **Example Run:**
+```
+Enter first number: 24
+Enter second number: 36
+HCF = 12
+```
+
+---
+
+## 🔟 Find Maximum of Three Numbers
+📄 **File:** `MaxOfThree_10.py`
+
+🧠 **Description:** 
+Creates a function that finds and returns the maximum among three numbers.
+
+💻 **Example Run:**
+```
+Enter first number: 10
+Enter second number: 45
+Enter third number: 32
+Maximum = 45
+```
+---

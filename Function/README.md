@@ -167,3 +167,16 @@ Creates a function that takes a list of numbers and returns the multiplication o
 Sum of list elements: 22680
 ```
 ---
+
+## 1️⃣3️⃣ Reverse String
+📄 **File:** `ReverseString_13.py`
+
+🧠 **Description:** 
+Creates a function that takes a string and returns its reverse.
+
+💻 **Example Run:**
+```
+Enter string: qbcde
+Reverse: edcbq
+```
+---

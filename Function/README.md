@@ -155,3 +155,15 @@ Creates a function that takes a list of numbers and returns the sum of all eleme
 Sum of list elements: 35
 ```
 ---
+
+## 1️⃣2️⃣ Multiply All Numbers in a List
+📄 **File:** `MultiplyNums_12.py`
+
+🧠 **Description:** 
+Creates a function that takes a list of numbers and returns the multiplication of all elements.
+
+💻 **Example Run:**
+```
+Sum of list elements: 22680
+```
+---

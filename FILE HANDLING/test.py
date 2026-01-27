@@ -1,4 +1,8 @@
-file = open("learn.txt", "a")
+file = open("learn.txt", "r")
 # print(file)
-file.write("\nI love sports.")
+# file.write("\nI love sports.")
 # print(file.read())
+
+txt = file.readline()
+print(txt)
+file.close()

@@ -1,3 +1,4 @@
+import json
 l = []
 c = 0
 s = 0
@@ -12,4 +13,6 @@ d["count"] = c
 d["Sum"] = s
 
 with open("output.txt", "w") as file:
-    file.write(f'{c} input items.\nSum = {s}\n{l}\n{d}')
+    file.write(f'{c} input items.\nSum = {s}\n{l}\n')
+    
+    json.dump(d, file)

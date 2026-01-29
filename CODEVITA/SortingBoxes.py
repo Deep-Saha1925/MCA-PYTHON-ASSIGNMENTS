@@ -39,8 +39,4 @@ def minimum_effort(n, k, boxes):
 n, k = map(int, input("Enter N and K: ").split())
 boxes = list(map(int, input("Enter weights: ").split()))
 
-# n = 5
-# k = 2
-# boxes = [20, 50, 30, 80, 70]
-
 print(minimum_effort(n, k, boxes))

@@ -24,6 +24,5 @@ def min_coins(N):
     print(total_coins, c5, c2, c1)
 
 
-# -------- INPUT --------
 N = int(input().strip())
 min_coins(N)

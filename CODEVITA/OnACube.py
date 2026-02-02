@@ -38,7 +38,7 @@ def total_distance(points):
 
     return f"{total:.2f}"
 
-n = int(input().strip())
+n = int(input())
 coords = list(map(float, input().split(',')))
 
 points = []

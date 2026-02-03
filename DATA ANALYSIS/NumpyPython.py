@@ -20,3 +20,32 @@ d.T
 
 # 6. Create a (2, 3, 5) numpy array with random integer values
 np.random.randint(0, 100, size=(2, 3, 5))
+
+# Slice a 3D array
+a = np.array([
+    [
+        [2, 3, 4],
+        [5, 6, 7],
+        [5, -2, -3]
+    ],
+    [
+        [2, 6, 72],
+        [5, -6, 7],
+        [3, 5, 4]
+    ]
+])
+
+# a.
+a[:, 1:, 1:]
+
+# b.
+a[0, 0:2, 1:]
+
+# c.
+a[1, 1:, 1:]
+
+# d.
+a[1, 1:2, 1:]
+
+# e.
+a[:, :2, 1:]

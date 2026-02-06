@@ -15,3 +15,9 @@ for i, count in enumerate(gender_counts.values):
     plt.text(i, count, str(count), ha='center', va='bottom')
 
 plt.show()
+
+
+# PLot survival %  using pie chart
+survival_counts = df['Survived'].value_counts()
+plt.pie(survival_counts.values, labels=['Not Survived', 'Survived'], autopct='%1.1f%%')
+plt.title('Survival Percentage')

@@ -15,10 +15,7 @@ m_n = ""
 m_v = 0
 
 for k in test1.keys():
-    if k not in t3:
         t3[k] = test1[k]
-    else:
-        t3[k] += test1[k]
         
 for k in test2.keys():
     if k not in t3:

@@ -31,5 +31,4 @@ for k in t3.keys():
         m_v = t3[k]
         m_n = k
         
-print(t3)
 print(m_n)

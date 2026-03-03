@@ -275,7 +275,44 @@ print(s2.name)
 
 
 =======================================================================
+
+16. Function to check whether number falls in given range
+
+def check_range(num, start, end):
+    if start <= num <= end:
+        print("Number is in the range")
+    else:
+        print("Number is not in the range")
+
+
+# Example
+check_range(5, 1, 10)
+
+
 =======================================================================
+
+17. Accept string and count no. of uppercase and lowercase leeters.
+
+# Accept string from user
+text = input("Enter a string: ")
+
+upper_count = 0
+lower_count = 0
+
+for ch in text:
+    if ch.isupper():
+        upper_count += 1
+    elif ch.islower():
+        lower_count += 1
+
+print("Number of uppercase letters:", upper_count)
+print("Number of lowercase letters:", lower_count)
+
+
 =======================================================================
+
+18. 
+
+
 =======================================================================
 =======================================================================

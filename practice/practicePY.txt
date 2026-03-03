@@ -217,6 +217,24 @@ print(cov_matrix)
 
 
 =======================================================================
+
+14. Replace NaN with avg of the column
+
+import numpy as np
+
+# Array with NaN values
+arr = np.array([[1, 2, np.nan],
+                [4, np.nan, 6],
+                [7, 8, 9]])
+
+# Replace NaN with column mean
+arr = np.where(np.isnan(arr),
+               np.nanmean(arr, axis=0),
+               arr)
+
+print(arr)
+
+
 =======================================================================
 =======================================================================
 =======================================================================

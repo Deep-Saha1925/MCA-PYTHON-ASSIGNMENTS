@@ -1,0 +1,124 @@
+
+=======================================================================
+1. Print and display sum of all elements in a list.
+
+l = [1,2,3,3,4,5,6,8,9]
+s = 0
+
+for e in l:
+    print(e)
+    s += e
+    
+print(s)
+
+=======================================================================
+
+2. GCD
+
+def gcd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
+
+# Input from user
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+# Function call
+result = gcd(num1, num2)
+print("GCD =", result)
+
+
+=======================================================================
+
+3. Reverse number
+
+n = int(input())
+num = 0
+
+while(n != 0):
+    num = num * 10 + n % 10
+    n = n // 10
+    
+print(num)
+
+
+=======================================================================
+
+4. Fibonacci Series
+
+def fibo(n):
+    
+    if n == 0:
+        return 0
+    
+    elif n == 1:
+        return 1
+        
+    return fibo(n-1) + fibo(n-2)
+
+n = 10
+
+for i in range(n):
+    print(fibo(i), end=', ')
+
+
+=======================================================================
+
+
+5. Pattern
+
+n = 3
+for i in range(1, n+1):
+    print((n-i)* " ", end='')
+    for j in range(i):
+        print(i, " ", end='')
+        
+    print()
+
+
+output::
+   1
+ 2   2
+3  3  3
+
+
+=======================================================================
+
+6. 1st Occurance
+
+
+
+
+
+=======================================================================
+
+7. Bubble sort
+
+def bubble_sort(a, n):
+    for i in range(n):
+        for j in range(n-i-1):
+            if a[j] > a[j+1]:
+                a[j], a[j+1] = a[j+1], a[j]
+                
+a = [5, 1, 2, 3, 8]
+bubble_sort(a, len(a))
+print(a)
+
+
+=======================================================================
+
+8. Selection Sort
+
+def selection_sort(a, n):
+    for i in range(n):
+        for j in range(i+1, n):
+            if a[i] > a[j]:
+                a[i], a[j] = a[j], a[i]
+                
+a = [5, 1, 2, 3, 8]
+selection_sort(a, len(a))
+print(a)
+
+
+=======================================================================

@@ -180,6 +180,46 @@ print("Dimension of array:", arr.ndim)
 
 =======================================================================
 
+12. Most frequent in NUMPY array
+
+import numpy as np
+
+# Create array
+arr = np.array([1, 2, 2, 3, 4, 2, 5, 3, 3, 3])
+
+# Find unique values and their counts
+values, counts = np.unique(arr, return_counts=True)
+
+# Get index of maximum count
+max_index = np.argmax(counts)
+
+# Most frequent value
+most_frequent = values[max_index]
+
+print("Most frequent value:", most_frequent)
+
 =======================================================================
 
+13. Covariance of two numpy arrays
+
+import numpy as np
+
+# Two arrays
+x = np.array([2, 4, 6, 8])
+y = np.array([1, 3, 5, 7])
+
+# Compute covariance matrix
+cov_matrix = np.cov(x, y)
+
+print("Covariance Matrix:")
+print(cov_matrix)
+
+
+
+=======================================================================
+=======================================================================
+=======================================================================
+=======================================================================
+=======================================================================
+=======================================================================
 =======================================================================

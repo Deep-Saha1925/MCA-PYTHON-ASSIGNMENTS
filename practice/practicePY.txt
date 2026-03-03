@@ -311,8 +311,34 @@ print("Number of lowercase letters:", lower_count)
 
 =======================================================================
 
-18. 
+18. count "to"and "the" in a test file
+
+file = open("test.txt", "r")
+text = file.read().lower()
+file.close()
+
+words = text.split()
+
+count_to = words.count("to")
+count_the = words.count("the")
+
+print("Number of 'to':", count_to)
+print("Number of 'the':", count_the)
 
 
 =======================================================================
+
+19. Display all lines in python.txt file along with line/record number
+
+file = open("python.txt", "r")
+
+line_number = 1
+
+for line in file:
+    print("Line", line_number, ":", line.strip())
+    line_number += 1
+
+file.close()
+
+
 =======================================================================

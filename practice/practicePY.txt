@@ -236,6 +236,44 @@ print(arr)
 
 
 =======================================================================
+
+15. How to copy object in python.
+
+
+i) Shallow copy ---- A shallow copy creates a new object, but nested objects are still shared.
+
+import copy
+
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+s1 = Student("Deep")
+
+# Shallow copy
+s2 = copy.copy(s1)
+
+print(s2.name)
+
+
+
+
+ii) Deep copy ----- A deep copy creates a completely independent object, including nested objects.
+
+import copy
+
+class Student:
+    def __init__(self, name):
+        self.name = name
+
+s1 = Student("Deep")
+
+# Deep copy
+s2 = copy.deepcopy(s1)
+
+print(s2.name)
+
+
 =======================================================================
 =======================================================================
 =======================================================================

@@ -144,3 +144,42 @@ def fact(n):
 fact(5)
 
 =======================================================================
+
+
+10. How to create a ndarray using NumPy, explain with example.
+
+
+import numpy as np
+
+# Creating 1D array
+arr1 = np.array([1, 2, 3, 4, 5])
+print("1D Array:", arr1)
+
+# Creating 2D array
+arr2 = np.array([[1, 2, 3], [4, 5, 6]])
+print("2D Array:")
+print(arr2)
+
+
+
+=======================================================================
+
+11. Write a program to create a 5-dimension array and display the dimension.
+
+import numpy as np
+
+# Creating a 5-dimensional array
+arr = np.zeros((2, 2, 2, 2, 2))
+
+# Display the array
+print("Array:\n", arr)
+
+# Display dimension
+print("Dimension of array:", arr.ndim)
+
+
+=======================================================================
+
+=======================================================================
+
+=======================================================================
